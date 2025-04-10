@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, rgba(36, 46, 77, .9), rgba(137, 126, 121, .9));
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-form {
+    background: rgba(0, 0, 0, .5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.lf--input, .form-select {
+    background: #f5f6f8;
+    color: #8f8f8f;
+}
+
+.lf--submit {
+    background: linear-gradient(to right, #35c3c1, #00d6b7);
+}
+
+.dashboard-header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.content-wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.library-image {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+

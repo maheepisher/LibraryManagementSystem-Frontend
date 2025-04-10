@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="text-center text-light mt-4">Library Management System</h1>
+    <div class="login-container">
+        <form class="login-form" id="loginForm">
+            <h2 class="text-center text-light">Login</h2>
+            
+            <div class="mb-3 flex-row">
+                <label class="lf--label"><i class="bi bi-person"></i></label>
+                <input type="text" id="userId" class="lf--input form-control" placeholder="User ID" required>
+            </div>
+
+            <div class="mb-3 flex-row">
+                <label class="lf--label"><i class="bi bi-lock"></i></label>
+                <input type="password" id="password" class="lf--input form-control" placeholder="Password" required>
+            </div>
+
+            <br/>
+
+            <div class="mb-3 flex-row">
+                <select id="userRole" class="form-select" required>
+                    <option value="">Select Role</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Customer">Customer</option>
+                </select>
+            </div>
+
+            <button type="submit" class="lf--submit btn" style="margin-left: 75px;">Login</button>
+            
+        </form>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/login.js"></script>
+</body>
+</html>
