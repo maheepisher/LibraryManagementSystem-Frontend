@@ -6,7 +6,7 @@
 //   version: '1.0.0'
 
 // };
-const apiUrl = '__API_URL__';
+const apiUrl = 'http://capsto-loadb-gvse7sdutqvq-914532092.us-east-1.elb.amazonaws.com';
 
 const devappConfig = {
   booksApi: {
@@ -55,5 +55,5 @@ const appConfig = {
 async function getConfig() {
   // In a more complex app, you might load this from a JSON file
   //return appConfig;
-  return devappConfig;
+  return appConfig;
 }
