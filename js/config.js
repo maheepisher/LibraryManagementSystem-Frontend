@@ -6,7 +6,7 @@
 //   version: '1.0.0'
 
 // };
-const apiUrl = 'http://capsto-loadb-gvse7sdutqvq-914532092.us-east-1.elb.amazonaws.com';
+const apiUrl = 'http://Capsto-LoadB-yZ3KStbkYQBN-1082039706.us-east-1.elb.amazonaws.com';
 
 const devappConfig = {
   booksApi: {
